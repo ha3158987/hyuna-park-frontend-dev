@@ -1,0 +1,10 @@
+// global style variables
+$primary-color: #64ff00;
+
+:export {
+    primaryColor: $primary-color;
+}
+
+// * tip - 사용할 때:
+// import variables from './variables.module.scss'
+// color: variables.primaryColor
