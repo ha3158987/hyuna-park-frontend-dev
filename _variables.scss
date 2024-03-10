@@ -1,0 +1,21 @@
+// global style variables
+$primary-color: #3bb7e5;
+$primary-background-color: #f3efe0;
+
+$light-line-color: #666666;
+$dark-line-color: #333333;
+
+@mixin flex-box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// * tip - 사용할 때:
+
+// variable:
+// @use "../variables" as v;
+// v.$primary-color
+
+// mixin:
+// @include v.flex-box-center

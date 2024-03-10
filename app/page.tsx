@@ -1,10 +1,15 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "@app/page.module.scss";
+
+import Header from "@components/main/Header";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <section className={styles["intro-section"]}>
+        <h1 className={styles.heading}>HYUNA PARK</h1>
+      </section>
+      {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
@@ -89,7 +94,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }
