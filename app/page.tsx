@@ -6,6 +6,7 @@ import Header from "@components/main/Header";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Header />
       <section className={styles["intro-section"]}>
         <h1 className={styles.heading}>HYUNA PARK</h1>
       </section>
